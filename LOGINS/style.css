@@ -1,0 +1,81 @@
+#container {
+    align-items: center;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 720px;
+}
+.loginBox { /*Ajustes generales para los logins*/
+    align-items: center;
+    height: 20em;
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+}
+#login {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+    border-radius: 10px;
+    border: 1px solid purple;
+    filter: drop-shadow(8px 8px 6px blue);
+    justify-content: space-evenly;
+}
+#user1, #password1 { /*altura y anchura de los unputs e texto y password*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-color: darkmagenta;
+    border-radius: 10px;
+    height: 20px;
+    width: 80%;
+    margin: -10px 0 20px 0;
+    outline: none;
+}
+#clickAcess { /*Ajustes del boton de login*/
+    background-color:white ;
+    border: 1px solid darkmagenta;
+    border-radius: 100px;
+    color: darkmagenta;
+    font-size: 150%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 90px;
+    height: 35px;
+    
+}
+#clickAcess:hover{
+    background-color: darkmagenta;
+    color: white;
+}
+#login2 {
+    align-items: flex-start;
+    border: 1px solid rgb(4, 105, 221);
+    border-top: none;
+    border-right: none;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(4, 105, 221);
+    padding-left: 20px;
+}
+#user2, #password2 {
+    height: 30px;
+    width: 90%;
+    border: 2px solid rgb(4, 105, 221);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 25px;
+    margin: 0 0 20px 0;
+    outline: none;
+}
+#clickAcess2 {
+    border: none;
+    background-color: white;
+    color: rgb(4, 105, 221);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
+    font-weight: bold;
+    margin: 20px 0 0 0;
+}
+#clickAcess2:hover {
+    border-bottom: 3px solid rgb(4, 105, 221);
+    transition: 0.15s;
+}
